@@ -1,0 +1,31 @@
+<div class="row" id="header">
+   <div class="col-3">
+   <button class= "btn btn-primary btn-lg" routerLink="/registration"> 
+        << Back to Registration 
+    </button>
+  </div>
+    <div class="col-2">
+    <button routerLink="body" class="btn btn-primary btn-lg">
+     Body component
+    </button>
+    </div>
+    <div class="col-2">
+    <button routerLink="left-navigation-panel" class="btn btn-primary btn-lg">
+    Left-nav component
+    </button>
+</div>
+<div class= "col-5">
+    
+    <select style="width:380px ; height: 40px; font-size: 20px;">
+        <option>Select currency symbol</option>
+        <option value="1">USD</option>
+        <option value="2">CAD</option>
+        <option value="3">AUD</option>
+        <option value="4">EUR</option>
+        <option value="5">CNY</option>
+        <option value="6">NZD </option>
+    </select> &nbsp;&nbsp;&nbsp;&nbsp;
+    <button (click)="sendMessage()" class="btn btn-primary">Click</button>
+</div>
+</div>
+
